@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Domain", "ArchSample.Domain\ArchSample.Domain.csproj", "{5CD93EE3-17AB-45B8-A956-6135F092106C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchSample.Domain", "ArchSample.Domain\ArchSample.Domain.csproj", "{5CD93EE3-17AB-45B8-A956-6135F092106C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7B874385-6431-45EA-8AB9-3A1F46DF9953}"
 EndProject
@@ -11,15 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D5DD79D-19F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchSample.Base", "ArchSample.Base", "{6A54D58A-822E-4E78-9CA2-6A1FEC010643}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Data.Base", "ArchSample.Data.Base\ArchSample.Data.Base.csproj", "{4B0CC385-F33A-403F-A646-3E665586CC38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchSample.Data.Base", "ArchSample.Data.Base\ArchSample.Data.Base.csproj", "{4B0CC385-F33A-403F-A646-3E665586CC38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Domain.Base", "ArchSample.Domain.Base\ArchSample.Domain.Base.csproj", "{35D90920-8046-46A2-8CF4-08A1F7E6A866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchSample.Domain.Base", "ArchSample.Domain.Base\ArchSample.Domain.Base.csproj", "{35D90920-8046-46A2-8CF4-08A1F7E6A866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Application", "ArchSample.Application\ArchSample.Application.csproj", "{B1AD1A40-8323-436A-97D8-26372EFB8046}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchSample.Application", "ArchSample.Application\ArchSample.Application.csproj", "{B1AD1A40-8323-436A-97D8-26372EFB8046}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchSample.Tests", "ArchSample.Tests", "{F9089E4E-CC47-442B-AEB0-2EDCDD0D44E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.IoC", "ArchSample.IoC\ArchSample.IoC.csproj", "{49B27E2E-C046-4A35-9A05-2AE9A7091C39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchSample.CrossCutting.IoC", "ArchSample.IoC\ArchSample.CrossCutting.IoC.csproj", "{49B27E2E-C046-4A35-9A05-2AE9A7091C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Application.Base", "ArchSample.Application.Base\ArchSample.Application.Base.csproj", "{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArchSample.CrossCutting", "ArchSample.CrossCutting", "{D8E9E634-D5A4-4BBE-9C83-75044ACF3130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.CrossCutting.TransferObjects", "ArchSample.CrossCutting.TransferObjects\ArchSample.CrossCutting.TransferObjects.csproj", "{00B6EA14-86E6-4429-BC96-FAE4F27C1D93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchSample.Auditing", "ArchSample.Auditing\ArchSample.Auditing.csproj", "{BBB77BB9-AED5-479B-B7AA-070791C9BD35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +55,18 @@ Global
 		{49B27E2E-C046-4A35-9A05-2AE9A7091C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B27E2E-C046-4A35-9A05-2AE9A7091C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B27E2E-C046-4A35-9A05-2AE9A7091C39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B6EA14-86E6-4429-BC96-FAE4F27C1D93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B6EA14-86E6-4429-BC96-FAE4F27C1D93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B6EA14-86E6-4429-BC96-FAE4F27C1D93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B6EA14-86E6-4429-BC96-FAE4F27C1D93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBB77BB9-AED5-479B-B7AA-070791C9BD35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB77BB9-AED5-479B-B7AA-070791C9BD35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB77BB9-AED5-479B-B7AA-070791C9BD35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB77BB9-AED5-479B-B7AA-070791C9BD35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,7 +78,11 @@ Global
 		{35D90920-8046-46A2-8CF4-08A1F7E6A866} = {6A54D58A-822E-4E78-9CA2-6A1FEC010643}
 		{B1AD1A40-8323-436A-97D8-26372EFB8046} = {7D5DD79D-19F5-4175-ACAE-BBD957BDBA94}
 		{F9089E4E-CC47-442B-AEB0-2EDCDD0D44E6} = {7D5DD79D-19F5-4175-ACAE-BBD957BDBA94}
-		{49B27E2E-C046-4A35-9A05-2AE9A7091C39} = {7D5DD79D-19F5-4175-ACAE-BBD957BDBA94}
+		{49B27E2E-C046-4A35-9A05-2AE9A7091C39} = {D8E9E634-D5A4-4BBE-9C83-75044ACF3130}
+		{95ADA29F-FB5D-43C1-8FCC-C1928BA2F4B6} = {6A54D58A-822E-4E78-9CA2-6A1FEC010643}
+		{D8E9E634-D5A4-4BBE-9C83-75044ACF3130} = {7D5DD79D-19F5-4175-ACAE-BBD957BDBA94}
+		{00B6EA14-86E6-4429-BC96-FAE4F27C1D93} = {D8E9E634-D5A4-4BBE-9C83-75044ACF3130}
+		{BBB77BB9-AED5-479B-B7AA-070791C9BD35} = {7D5DD79D-19F5-4175-ACAE-BBD957BDBA94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {931C0104-DEC3-4C2B-81A2-C4B2D7E6D8B6}
