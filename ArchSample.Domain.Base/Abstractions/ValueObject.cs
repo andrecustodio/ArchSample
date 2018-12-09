@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ArchSample.Domain.Base.Abstractions
 {
-    class ValueObject
+    public class ValueObject
     {
     }
 }
