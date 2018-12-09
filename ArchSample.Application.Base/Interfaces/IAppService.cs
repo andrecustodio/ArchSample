@@ -5,5 +5,5 @@ using System.Text;
 
 namespace ArchSample.Application.Base.Interfaces
 {
-    internal interface IAppService { }
+    internal interface IAppService<TEntity> where TEntity: Entity { }
 }
